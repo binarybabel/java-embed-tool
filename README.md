@@ -1,5 +1,7 @@
 # Java Embed Tool
 
+[![Build Status](https://travis-ci.org/binarybabel/java-embed-tool.svg?branch=master)](https://travis-ci.org/binarybabel/java-embed-tool)
+
 `embed-tool` is designed to embed Java source-code in another project's namespace. Information on its use, as well as a deployment pattern using Git Submodules and Gradle is available below. This repository contains the source for the command-line executable. 
 
 * Common use case is creating single-jar plugins/addons for other pieces of software.
