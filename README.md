@@ -30,11 +30,14 @@ $EMBED_PACKAGE = Root package name of embedded code
 
 ```
 cd $PROJECT_ROOT
-mkdir -p src/embed/java src/embed/repo
+mkdir -p src/embed
 cd src/embed
 
 # Download and extract embed-tool.jar and README.txt
 https://github.com/binarybabel/java-embed-tool/releases
+
+# Initialize workspace
+java -jar embed-tool.jar init
 ```
 
 #### Update Gradle includes
