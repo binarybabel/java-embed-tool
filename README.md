@@ -33,7 +33,7 @@ cd $PROJECT_ROOT
 mkdir -p src/embed
 cd src/embed
 
-# Download and extract embed-tool.jar and README.txt
+# Download embed-tool.jar from GitHub
 https://github.com/binarybabel/java-embed-tool/releases
 
 # Initialize workspace
