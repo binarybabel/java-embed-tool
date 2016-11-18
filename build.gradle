@@ -30,6 +30,7 @@ jar {
         attributes 'Main-Class': 'org.binarybabel.embedtool.Main'
     }
     archiveName 'embed-tool.jar'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
 task wrapper(type: Wrapper) {
